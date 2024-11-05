@@ -1,0 +1,32 @@
+.ticket-card {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .user-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+  }
+  .task-title {
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: bold;
+  }
+  .priority {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+  }
+  .priority.urgent { background-color: #ff6b6b; color: white; }
+  .priority.high { background-color: #ffa502; color: white; }
+  .priority.medium { background-color: #2ed573; color: white; }
+  .priority.low { background-color: #1e90ff; color: white; }
+  

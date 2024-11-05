@@ -1,0 +1,15 @@
+.display-options {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .display-options label {
+    margin-right: 8px;
+  }
+  
+  .display-options select {
+    padding: 4px;
+    font-size: 14px;
+  }
+  

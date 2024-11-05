@@ -1,0 +1,15 @@
+.sort-options {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .sort-options label {
+    margin-right: 8px;
+  }
+  
+  .sort-options select {
+    padding: 4px;
+    font-size: 14px;
+  }
+  
